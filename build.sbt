@@ -1,6 +1,6 @@
 import sbt.Keys._
 
-val awsSdkVersion = "2.17.118"
+val awsSdkVersion = "2.17.120"
 val elastic4sVersion = "7.16.3"
 
 lazy val buildSettings = Seq(
