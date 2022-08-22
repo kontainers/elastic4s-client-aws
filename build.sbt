@@ -54,7 +54,7 @@ lazy val elastic4sClientAWS = project.in(file(".")).
       "com.sksamuel.elastic4s" %% "elastic4s-core" % elastic4sVersion,
       "com.sksamuel.elastic4s" %% "elastic4s-client-esjava" % elastic4sVersion,
       "com.sksamuel.exts" %% "exts" % "1.61.1",
-      "org.slf4j" % "slf4j-api" % "1.7.36",
+      "org.slf4j" % "slf4j-api" % "2.0.0",
       "software.amazon.awssdk" % "auth" % awsSdkVersion,
       "software.amazon.awssdk" % "core" % awsSdkVersion,
       "software.amazon.awssdk" % "regions" % awsSdkVersion,
