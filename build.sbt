@@ -50,7 +50,7 @@ lazy val elastic4sClientAWS = project.in(file(".")).
     name := "elastic4s-client-aws",
     scalacOptions ++= Seq("-encoding", "UTF-8", "-deprecation", "-unchecked"),
     libraryDependencies ++= Seq(
-      "org.scala-lang.modules" %% "scala-collection-compat" % "2.7.0",
+      "org.scala-lang.modules" %% "scala-collection-compat" % "2.8.1",
       "com.sksamuel.elastic4s" %% "elastic4s-core" % elastic4sVersion,
       "com.sksamuel.elastic4s" %% "elastic4s-client-esjava" % elastic4sVersion,
       "com.sksamuel.exts" %% "exts" % "1.61.1",
